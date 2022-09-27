@@ -1,0 +1,3 @@
+Déplacer le fichier is_prime/CMakeLists.txt dans le dossier is_prime_prog,
+Supprimer le dossier is_prime.
+Sinon à part ça, tout fonctionne.
