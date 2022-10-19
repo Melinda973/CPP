@@ -2,11 +2,11 @@
 
 int main()
 {
-    int n;
+    long long n;
     
     while (std::cin >> n)
     {
-	int i;
+	long long i;
 	bool prime = true;
 
 	if (n <= 1)
