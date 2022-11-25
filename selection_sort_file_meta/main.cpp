@@ -1,10 +1,8 @@
-// Do not change me
-
 #include <iostream>
 
 #include <string>
 
-#include "sort_file.hpp"
+#include "sort_file.h"
 
 
 int main(int argc, char *argv[]) {
@@ -15,7 +13,7 @@ int main(int argc, char *argv[]) {
   if (!fi)
 		throw std::runtime_error("Expected input filename as argument");
 
-  std::ofstream fo("sorted_values.txt");
+  std::ofstream fo("sorted.txt");
   if (!fo)
 		throw std::runtime_error("Unable to open output");
 
